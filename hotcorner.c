@@ -24,10 +24,10 @@
 // There are some hints about changing corners here
 //      https://github.com/taviso/hotcorner/issues/7#issuecomment-269367351
 static const RECT kHotCorner = {
-    .top    = -20,
+    .top    = 1600 - 20,
     .left   = -20,
     .right  = +20,
-    .bottom = +20,
+    .bottom = 1600 + 20,
 };
 
 // Input to inject when corner activated (Win+Tab by default).
